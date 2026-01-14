@@ -1,77 +1,73 @@
-# 📊 Road Accident Analysis Dashboard – Power BI
+Road Accident Analysis – Power BI Dashboard
+📌 Project Overview
 
----
+This project presents an interactive Power BI dashboard for analyzing road accident data to identify patterns, risk factors, and trends across time, location, road conditions, and vehicle types.
+The goal is to support data-driven road safety decisions using clear and insightful visual analytics.
 
-## 📖 About the Project
-This project focuses on analyzing road accident data to uncover patterns, trends, and key risk factors contributing to accidents. The interactive Power BI dashboard helps visualize accident severity, time-based trends, and location-wise impact to support data-driven road safety decisions.
+🎯 Objectives
 
----
+Analyze accident and casualty trends over time
+Identify high-risk road types and locations
+Understand accident severity distribution
+Compare urban vs rural accident impact
+Study effects of light, weather, and road conditions
 
-## 🎯 Project Objectives
-- Analyze accident trends over time  
-- Identify high-risk locations and accident-prone conditions  
-- Understand accident severity distribution  
-- Support decision-making for road safety improvements  
+🛠️ Tools & Technologies
 
----
+Power BI Desktop
+Microsoft Excel
+DAX
 
-## 🛠 Tools & Technologies Used
-- Power BI  
-- Microsoft Excel  
-- DAX  
-- Kaggle Dataset  
+Git & GitHub (Git LFS for large files)
 
----
+📊 Key Insights
+🚗 Cars contribute the highest number of casualties
+🛣️ Single carriageways have the most accidents
+🌆 Urban areas account for ~65% of total casualties
+☀️ Daytime accidents are significantly higher than night
+⚠️ Fatal casualties reduced compared to the previous year
 
-## 📂 Dataset Information
-- **Source:** Kaggle (Road Accident Dataset)  
-- **Attributes Included:**
-  - Accident severity  
-  - Date and time  
-  - Location details  
-  - Vehicle and road conditions  
+📈 Dashboard Features
 
----
+KPI cards for total accidents & casualties
+Casualties by vehicle type
+Monthly trend comparison (Current Year vs Previous Year)
+Urban vs Rural distribution
+Road type & light condition analysis
+Interactive slicers for weather & road surface
 
-## 📊 Key Insights & Findings
-- Most accidents occur during peak traffic hours  
-- Certain locations consistently record higher accident frequency  
-- Severe accidents are strongly influenced by lighting and road conditions  
-- Seasonal and monthly trends significantly impact accident rates  
+🚀 How to Use
 
----
+Clone the repository
+Open Road Accident Dashboard.pbix in Power BI Desktop
+Interact with slicers and visuals to explore insights
 
-## 📈 Dashboard Features
-- Interactive filters and slicers  
-- Accident severity breakdown  
-- Time-based trend analysis  
-- Location-wise accident distribution  
+📦 Large Files Note
 
----
+This repository uses GitHub Large File Storage (Git LFS) to manage large files such as:
+.pbix (Power BI dashboard)
+.xlsx (dataset)
 
-## 🚀 How to Run the Project
-1. Download the `.pbix` file from this repository  
-2. Open the file using **Power BI Desktop**  
-3. Use slicers and visuals to explore accident insights  
+🧠 What I Learned
 
----
+Building professional Power BI dashboards
+Writing optimized DAX measures
+Data storytelling through visuals
+Managing large files using Git LFS
+Structuring portfolio-ready GitHub projects
 
-## 📌 Key Learnings
-- Gained hands-on experience with real-world datasets  
-- Improved data modeling and DAX skills  
-- Enhanced dashboard design and data storytelling abilities  
+🔮 Future Enhancements
 
----
+Integrate real-time weather data
+Add predictive accident risk modeling
+Create automated data refresh pipelines
+Publish dashboard to Power BI Service
 
-## 🔮 Future Enhancements
-- Integrate weather data for deeper insights  
-- Add predictive analytics for accident forecasting  
-- Automate data refresh and updates  
+👤 Author
 
----
+Prasad Reddy
+Aspiring Data Analyst | Power BI | SQL | Python
 
-## 📸 Dashboard Preview
-*(Add dashboard screenshots in the `screenshots` folder and link them here)*
+⭐ If you like this project
 
-```md
-![Dashboard Preview](screenshots/dashboard.png)
+Give it a ⭐ and feel free to fork or suggest improvements!
